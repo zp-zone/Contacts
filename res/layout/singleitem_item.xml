@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="15dp" 
+    />
+
+    <!-- 两个textView和一个view显示一条间隔线，一个view形成25dp的空白，构成的显示单元 -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="姓名"
+        android:textColor="#6600ff00"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#550055aa" />
+
+    <TextView
+        android:id="@+id/tv_singleitem_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="test name"
+        android:textColor="#6600ff00"
+        android:textSize="25dp" />
+  
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="25dp" />
+<!-- *********************************************** -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="电话"
+        android:textColor="#6600ff00"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#550055aa" />
+
+    <TextView
+        android:id="@+id/tv_singleitem_phonenum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="test num"
+        android:textColor="#6600ff00"
+        android:textSize="25dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="25dp" />
+<!-- *********************************************** -->
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="邮箱"
+        android:textColor="#6600ff00"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#550055aa" />
+
+    <TextView
+        android:id="@+id/tv_singleitem_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="test email"
+        android:textColor="#6600ff00"
+        android:textSize="25dp" />
+  
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="25dp" />
+<!--     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="邮箱"
+        android:textColor="#6600ff00"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#550055aa" />
+
+    <TextView
+        android:id="@+id/tv_singleitem_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="test email"
+        android:textColor="#6600ff00"
+        android:textSize="25dp" /> -->
+
+</LinearLayout>

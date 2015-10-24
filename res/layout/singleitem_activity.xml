@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 联系人头像 -->
+
+    <ImageView
+        android:id="@+id/tv_contactphoto"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:clickable="false"
+        android:src="@+drawable/jimi" />
+
+    <ListView
+        android:id="@+id/lv_singleitem_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_singleitem"
+        android:layout_below="@+id/tv_contactphoto" />
+
+    <LinearLayout
+        android:id="@+id/ll_singleitem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_call"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="add"
+            android:text="拨打电话" />
+
+        <Button
+            android:id="@+id/bt_sendSMS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:onClick="search"
+            android:text="发送信息" />
+
+        <Button
+            android:onClick="deleteItem"
+            android:id="@+id/bt_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="删除记录" />
+    </LinearLayout>
+
+</RelativeLayout>

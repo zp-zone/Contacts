@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/ll" />
+    
+     <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_add"
+            android:onClick="add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="添加联系人" />
+
+        <Button
+            android:id="@+id/bt_search"
+            android:onClick="search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="查找联系人" />
+    </LinearLayout> 
+
+</RelativeLayout>
